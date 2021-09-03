@@ -1,0 +1,31 @@
+Nomor 2
+======================================
+
+a. Kosongkan Angka 1 dan Angka 2 lalu klik salah satu button
+Hasil: Program mengalami error dengan error message sebagai berikut: Week02_34835 has stopped
+Penyebab: NumberFormatException: empty string --> Terjadi akibat salah satu / kedua input yang aakan dijadikan parameter operasi bernilai kosong 
+Cara mengatasi: Dibuat exception (try catch) yang mana ketika terjadi error dapat melakukan sesuatu dan tidak membuat aplikasi crash
+
+b. Kosongkan Angka 2, lalu klik Button Bagi
+Hasil: Program mengalami error dengan error message sama di kasus a
+Penyebab: NumberFormatException: empty string --> Terjadi sama dengan kasus a, yaitu angka 2 yang menjadi salah satu parameter operasi hitung bernilai kosong
+Cara mengatasi: Dibuat exception (try catch) yang mana ketika angka 2 atau input field lainya kosong dapat melakukan sesuatu dan tidak membuat aplikasi crash
+
+c. Isi 0 pada angka 2, lalu klik Bagi
+Hasil: Program tidak error, melainkan menghasilkan nilai infiniti
+Penyebab: Operasi matematika pembagian bilangan apapun dengan 0 akan menghasilkan infiniti, bukan hasil pembagian yang baku
+Cara mengatasi: Membuat exception pada method hitung untuk menolak input pada angka 2 dengan nilai 0 ketika operator bernilai /
+
+Nomor 3
+=====================================
+Pada program, breakpoints diletakkan pada dua titik:
+-  hitung('+)
+- double operand1 = Double.parseDouble(angka1.getText().toString());
+
+Kesimpulan: 
+Debugging bisa digunakan untuk mengetahui letak kesalahan suatu program, seperti ketika kita mencoba input dengan kondisi seperti no 2a, maka program akan melalui salah satu breakpoint,
+yaitu ketika akan memasuki method higung. Dengan menggunakan step in, kita dapat memasuki method untuk kemudian bertemu dengan brekapoint berikutnya. Dengan menggunakan step over dan step out kita dapat mengetahui
+bahwa program tidak dapat melanjutkan / crash setelah baris tersebut, terlihat ketika kita melakukan resuming (melanjutkan program yang telah dijalankan).
+
+Hal ini membuat kita mengetahui letak error dan bisa membuat penyesuaian, yang merupakan tujuan utama dari debugging
+
