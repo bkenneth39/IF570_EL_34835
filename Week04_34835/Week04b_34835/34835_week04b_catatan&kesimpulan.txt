@@ -1,0 +1,8 @@
+Dari aplikasi week04b, maka terdapat beberapa catatan:
+- Terdapat implementasi Fragment dan Frame Layout sebagai pengganti Fragment
+- <Fragment> diterapkan ketika user menekan tombol halaman pertama, maka akan intent ke SecondActivity dengan
+UI yaitu activity_second.xml yang memiliki dua fragment.
+-<Frame Layout> diterapkan ketika user menekan tombol halaman kedua, maka akan intent ke ThirdActivityyang juga memiliki dua fragment. Penggunaan transaction.replace() sehingga kita dapat mengganti fragment berdasarkan id pada file xml
+
+Kesimpulan:
+Fragment merupakan komponen yang dapat ditempel pada XML untuk membuat UI component menjadi reusable / modular sehingga pemrograman menjadi lebih efektif. Penggunaannya dapat dengan menuliskan tag <fragment> atau dengan fragment Layout yang ditambahkan fungsi transaction.replace() untuk mereplikasi fungsi tag fragment yang ada
