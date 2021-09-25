@@ -1,3 +1,4 @@
+Week03
 Dari pengujian yang dilakukan terhadap app di atas, diketahui beberapa hal:
 - Pada saat app baru dibuka, terdapat 20 kata yang ditampilkan dalam bentuk list
 - Ketika salah satu kata diklik, maka akan ditambahkan kata 'telah diklik' pada tulisan di baris yang diklik
