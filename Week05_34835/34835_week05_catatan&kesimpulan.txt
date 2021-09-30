@@ -1,0 +1,5 @@
+Dari percobaan pada aplikasi di Week05, terdapat beberapa catatan:
+- Ketika aplikasi dijalankan, maka user dapat menggambar berdasarkan jenis objek yang akan dipilih, mulai dari garis hingga oval
+- Ketika tombol X ditekan, maka aplikasi menghapus semua coretan yang ada di layar
+
+Kesimpulan dari percobaan di atas adalah penggunaan terhadap RadioButton dan Seekbar dari warna yang dapat digunakan untuk menerima input dari user dan eksekusi berjalan dengan baik.
