@@ -1,0 +1,3 @@
+Pada pembuatan aplikasi ini, terdapat beberapa gambar kuda yang terdiri dari 11 frame menggambarkan seekor kuda yang sedang berlari. Kumpulan gambar ini diletakkan di dalam folder drawable yang ketika dianimasikan, maka akan membentuk suatu GIF yang akan berjalan ketika layar disentuh
+
+Dari aplikasi ini, tidak terdapat kendala dan implementasi animasi drawable berhasil, dapat dilakukan dengan menggabungkan frame gambar yang ada

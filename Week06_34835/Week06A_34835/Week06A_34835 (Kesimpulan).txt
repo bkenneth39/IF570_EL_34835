@@ -1,0 +1,3 @@
+Pada pengerjaan aplikasi Week 06A ini, dilakukan pembuatan aplikasi yang akan menghasilkan animasi lingkaran dengan warna hijau membesar dan mengecil menjadi warna biru gelap yang akan keluar ketika salah satu bagian layar ditekan.
+
+Dari pembuatan aplikasi ini terdapat implementasi properti animasi secara dasar yang didukung dengan fungsi ontouch pada Main Activity

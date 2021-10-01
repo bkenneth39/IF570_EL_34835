@@ -1,0 +1,21 @@
+Summary seluruh project Week 06
+
+Week 06A:
+Pada pengerjaan aplikasi Week 06A ini, dilakukan pembuatan aplikasi yang akan menghasilkan animasi lingkaran dengan warna hijau membesar dan mengecil menjadi warna biru gelap yang akan keluar ketika salah satu bagian layar ditekan.
+
+Dari pembuatan aplikasi ini terdapat implementasi properti animasi secara dasar yang didukung dengan fungsi ontouch pada Main Activity
+
+Week 06B:
+Pada pembuatan aplikasi ini, terdapat beberapa gambar kuda yang terdiri dari 11 frame menggambarkan seekor kuda yang sedang berlari. Kumpulan gambar ini diletakkan di dalam folder drawable yang ketika dianimasikan, maka akan membentuk suatu GIF yang akan berjalan ketika layar disentuh
+
+Dari aplikasi ini, tidak terdapat kendala dan implementasi animasi drawable berhasil, dapat dilakukan dengan menggabungkan frame gambar yang ada
+
+Week 06C:
+Pada aplikasi ini, dilakukan pembuatan animasi dengan mengikuti animasi gerakan Fisika, yaitu spring dan fling. Pada dua tombol yang tersedia, ketika button spring yang ditekan, maka akan melakukan animasi spring yang menarik dan melepas button tersebut, sedangkan pada button fling melakukan gerakan berputar berbasis tenaga gesekan proporsional
+
+Dari aplikasi ini, terlihat bahwa kita bisa melakukan animasi dengan menggunakan fungsi, seperti pada onTouchEvent yang ada pada Main Activity.
+
+Summary:
+- Pengerjaan tiga aplikasi di atas mengimplementasikan penggunaan animasi dan media pada aplikasi Android
+- Implementasi animasi ini dapat dilakukan dengan tiga cara, yaitu touch, GIF melalui kumpulan foto kuda lari, dan fungsi untuk membuat animasi dengan basis khusus, seperti spring dan fling.
+- Implementasi ketiganya berjalan dengan lancar

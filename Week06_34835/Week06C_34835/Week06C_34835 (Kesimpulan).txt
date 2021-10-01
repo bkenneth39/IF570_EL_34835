@@ -1,0 +1,3 @@
+Pada aplikasi ini, dilakukan pembuatan animasi dengan mengikuti animasi gerakan Fisika, yaitu spring dan fling. Pada dua tombol yang tersedia, ketika button spring yang ditekan, maka akan melakukan animasi spring yang menarik dan melepas button tersebut, sedangkan pada button fling melakukan gerakan berputar berbasis tenaga gesekan proporsional
+
+Dari aplikasi ini, terlihat bahwa kita bisa melakukan animasi dengan menggunakan fungsi, seperti pada onTouchEvent yang ada pada Main Activity.
