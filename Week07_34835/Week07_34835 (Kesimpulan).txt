@@ -1,0 +1,3 @@
+Pada pengerjaan aplikasi, menggunakan fitur native dari smartphone yaitu kamera dan video. Ketika kamera dan video berhasil diambil, maka gambar akan langsung dikirim dengan menggunakan intent dan ditampilkan
+
+Dari aplikasi tersebut, gambar berhasil ditampilkan dan kamera berhasil melakukan perekaman video sehingga implementasi fitur native berhasil dilakukan
