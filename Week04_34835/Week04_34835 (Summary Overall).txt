@@ -1,0 +1,28 @@
+Week 04 Overall
+
+Week 04A:
+Dari percobaan pada aplikasi di week04a, terdapat beberapa catatan:
+Tombol Kirim
+- Ketika user mengisi textview dan menekan tombol kirim, maka akan terjaid pengiriman data dari mainActivity ke activity lainnya (activity2). Hal tersebut juga terjadi ketika kita mengirim jawaban data dari activity2 ke mainactivity, maka balasan juga akan ditampilkan di activity main
+- Ketika data dikirim, maka terjadi pula perpindahan tempat dari activity main ke activity 2
+
+Tombol Browse
+- Ketika user mengisi input dan menekan tombol browse, jika isi dari textView tersebut berbentuk link maka akan membawa user ke link yang diisi
+- Jika isi input bukan berupa link, maka user tidak akan mendapatkan hasil apapun
+- Jika input dibiarkan kosong dan tombol browse diklik, maka akan membawa user ke website UMN
+- Pada bagian ini, text yang diisi oleh user dapat dikirim ke activity pada aplikasi lain yang bisa mengerjakan teks yang dikirim oleh user tersebut
+
+Kesimpulan:
+Dari hasil di atas merupakan implementasi intent dalam pembuatan aplikasi, yaitu sebuah objek yang berfungsi sebagai wadah komunikasi antar activity satu dengan yang lainnya, baik yang berada di dalam satu aplikasi maupun di aplikasi yang berbeda. Intent memiliki dua jenis, yaitu implicit intent yang berfungsi untuk komunikasi dalam aplikasi yang sama dan eksplisit intent yang berfungsi untuk komunikasi dengan activity yang berada di aplikasi lain.
+
+
+Week 04B:
+Dari aplikasi week04b, maka terdapat beberapa catatan:
+- Terdapat implementasi Fragment dan Frame Layout sebagai pengganti Fragment
+- <Fragment> diterapkan ketika user menekan tombol halaman pertama, maka akan intent ke SecondActivity dengan
+UI yaitu activity_second.xml yang memiliki dua fragment.
+-<Frame Layout> diterapkan ketika user menekan tombol halaman kedua, maka akan intent ke ThirdActivityyang juga memiliki dua fragment. Penggunaan transaction.replace() sehingga kita dapat mengganti fragment berdasarkan id pada file xml
+
+Kesimpulan:
+Fragment merupakan komponen yang dapat ditempel pada XML untuk membuat UI component menjadi reusable / modular sehingga pemrograman menjadi lebih efektif. Penggunaannya dapat dengan menuliskan tag <fragment> atau dengan fragment Layout yang ditambahkan fungsi transaction.replace() untuk mereplikasi fungsi tag fragment yang ada
+
