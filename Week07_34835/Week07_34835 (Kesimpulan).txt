@@ -2,8 +2,8 @@ Pada week 7 ini, dilakukan pembuatan aplikasi yang mengimplementasikan fitur pen
 
 Pada pengerjaan aplikasi 7A, menggunakan fitur native dari smartphone yaitu kamera dan video. Ketika kamera dan video berhasil diambil, maka gambar akan langsung dikirim dengan menggunakan intent dan ditampilkan
 
-Dari aplikasi tersebut, gambar berhasil ditampilkan dan kamera berhasil melakukan perekaman video sehingga implementasi fitur native berhasil dilakukan
+Dari aplikasi tersebut, gambar berhasil ditampilkan dan kamera berhasil melakukan perekaman video sehingga implementasi fitur native berhasil dilakukan. Namun, pada saat menampilkan video yang direkam tidak lancar karea menampilkan alert 'can't play video' walaupun kode yang dimasukkan sudah benar
 
-Selain itu, pada proyek 7B terjadi penampilan video dengan menggunakan sumber dari luar
+Selain itu, pada proyek 7B terjadi penampilan video dengan menggunakan sumber dari luar. Menampilkan list video berhasil dilakukan, namun ketika video akan diklik untuk dimainkan, aplikasi crash sehingga tidak sepenuhnya berhasil
 
 Kesimpulan dari pengerjaan modul minggu ini adalah pengambilan gambar dan video bisa dilakukan di Android dengan mengimplementasikan fitur native dan menggunakan video player

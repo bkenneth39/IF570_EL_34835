@@ -1,1 +1,1 @@
-Dari aplikasi tersebut, video berhasil ditampilkan dari files yang diletakkan di folder raw sehingga implementasi fitur native berhasil dilakukan
+Dari aplikasi tersebut, video berhasil ditampilkan dari files yang diletakkan di folder raw sehingga implementasi fitur native berhasil dilakukan,namun ketika video akan diklik untuk dimainkan, aplikasi crash sehingga tidak sepenuhnya berhasil
