@@ -23,12 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        sharedPrefFile = context.getPackageName();
-        mPreferences = getSharedPreferences(sharedPrefFile,MODE_PRIVATE);
-        mCount = mPreferences.getInt(COUNTER_KEY, 0);
-        tvCounter.setText(String.valueOf(mCount));
-        mWarna = mPreferences.getInt(WARNA_KEY, mWarna);
-        tvCounter.setBackgroundColor(mWarna);
+
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -44,6 +39,13 @@ public class MainActivity extends AppCompatActivity {
             mWarna = savedInstanceState.getInt(WARNA_KEY);
             tvCounter.setBackgroundColor(mWarna);
         }
+
+        sharedPrefFile = context.getPackageName();
+        mPreferences = getSharedPreferences(sharedPrefFile,MODE_PRIVATE);
+        mCount = mPreferences.getInt(COUNTER_KEY, 0);
+        tvCounter.setText(String.valueOf(mCount));
+        mWarna = mPreferences.getInt(WARNA_KEY, mWarna);
+        tvCounter.setBackgroundColor(mWarna);
 
     }
 
